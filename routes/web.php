@@ -16,6 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('datadiri', function() {
-    return view('datadiri');
+
+Route::get('/profile', function () {
+    return view('profile');
 });
+
+
+Route::get('/siswa','siswacontroller@index');
+Route::get('/siswa/create','siswacontroller@create');
+Route::get('/siswa/{siswa}','siswacontroller@show');
+Route::post('/siswa','siswacontroller@store');
+route::delete('/siswa/{siswa}','siswacontroller@destroy');
+route::get('/siswa/{siswa}/edit','siswacontroller@edit');
+route::patch('/siswa/{siswa}','siswacontroller@update');

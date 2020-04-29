@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Putri Mega Asri</title>
+        <title>Blog Chalvin</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -81,18 +81,18 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Putri Mega Asri
+                    Muhammad Chalvin Syahputra
                 </div>
 
                 <div class="links">
-                    <a href="datadiri.php">Profile</a>
-                    <a href="https://laracasts.com">Laracast</a>
+                    <a href="https://laravel.com/docs">Docs</a>
+                    <a href="Biodata.php">Profile</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://blog.laravel.com">Blog</a>
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/m-chalvin/web2">GitHub</a>
                 </div>
             </div>
         </div>
